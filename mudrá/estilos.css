@@ -1,0 +1,101 @@
+/* Regla para poner el relleno (padding) y Margen en cero */
+* {margin: 0; padding: 0;}
+    
+body { color: #1F1F1F;    font-family: 'Josefin Sans', sans-serif; }
+header { background-color: rgb(238, 239, 242); color: yellow ; padding: 8px; }
+
+.logo {width: 78px ;}
+
+.icono {color: #1F1F1F; display: none;}
+
+nav { text-align: center; float: right}
+nav a { background-color:#EAB3A5; color: rgb(255, 255, 255); text-decoration: none; margin: 1px; padding: 18px;text-align: center; float: right}
+nav a:hover { color: #1F1F1F; background-color: #FFF;}
+
+a { color:#FFF}
+
+section {background-color: rgb(255, 255, 255)}
+
+.título {margin: 1px; padding: 18px;}
+
+.cajaslider { display: flex; align-items: center;justify-content: center;}
+.cajaslider h1 {position: absolute;top: 45%;left: 50%;font-size: 45px; padding: 20px; color: rgb(255, 255, 255); width: 300px; margin-left: -150px; box-sizing: border-box;}
+
+.imageninicio a {position:absolute; bottom: 50px; left: 50%; background-color: aqua; color: #1F1F1F; padding: 20px; border-radius: 10px; width: 100px; margin-left: -50px; text-align: center;}
+
+
+
+.foto4 img {width: 30%; margin-right: auto; display: block;}
+.foto2 img {width: 38%; margin-left: auto; display: block;}
+.foto3 img {width: 38%; margin-right: auto; display: block;}
+
+.banner {width: 90%; display: block; margin: 10px auto;}
+.amarillo { background-color: yellow}
+
+.cajacontenedora { display:flex; flex-flow: wrap;}
+.cajacontenedora h2 { text-align: center; border-bottom: 3px solid #ab9999}
+.cajacontenedora div {margin: 1%; padding: 10px; box-sizing: border-box;background-color: rgb(238, 239, 242);text-align: center; }
+.cajacontenedora img {padding: 10px;text-align: center;}
+.boton {color: #ab9999;}
+
+.cajacontenedora div.caja1 img { width:50%}
+
+.cajacontenedora div.caja2 img { width: 40%;}
+.cajacontenedora div.caja2 { width: 60.6%;}
+
+.cajacontenedora div.caja3 {width: 34%;}
+.cajacontenedora div.caja3 img { width: 50%;}
+
+.cajacontenedora div.caja4 {width: 48%;}
+.cajacontenedora div.caja4 img {width: 30%;}
+
+.cajacontenedora div.caja6 {width: 44%;}
+.cajacontenedora div.caja6 img {width: 50%;}
+
+.cajacontenedora div.caja5 {width: 97%;}
+.cajacontenedora div.caja5 img { width: 15%;}
+
+
+.menu { display:flex; flex-flow: wrap;color: rgb(255, 255, 255); margin: 0%;}
+.menu div {width: 33.3%;margin: 0%; padding: 0%;}
+.menu h2 { text-align: center; background-color: #EAB3A5; width: 95%; margin: 1%; padding: 10px; box-sizing: border-box }
+.menu h3 {margin: 30px 0 0 10px;color: #1F1F1F; }
+.menu p { color: #1F1F1F; margin: 10px;}
+
+.reserva { background-color:#1F1F1F; color: rgb(255, 255, 255); text-decoration: none; margin: 1px; padding: 18px;
+    text-align: center;-webkit-border-radius: 10px;
+    border-radius: 20px;}
+.reserva:hover { color: #1F1F1F; background-color: #EAB3A5;}
+
+.delivery a {padding-left: 3%; padding-bottom: 5% ;}
+
+
+.sobrem { padding: 20px; margin: 2%;}
+.mapa {width: 30%; text-align: center;}
+
+.quienessomos {width: 80%; margin: 1%; padding: 20px; background-color: #EAB3A5}
+
+footer { background-color: #1F1F1F; text-align: center; color: #FFF; padding: 10px;padding: 20px;
+}
+.ig {color: #FFF;}
+
+
+
+.mySlides {width: 60%; overflow: hidden;}
+#seccion1 {width: 100%;}
+.botonsubir {position: fixed; right: 0; bottom: 0; background-color: red; color: #1F1F1F;}
+
+@media (max-width:800px) {
+    .cajacontenedora, .cajacontenedora div { width: 98%; }
+    
+}
+
+@media (max-width:480px) {
+    nav {display: none; float: n;}
+    nav a {display: block;}
+    .responsive { display: block;height: auto;}
+    .icono { display: block;float: right; font-size: 30px;}
+    .cajacontenedora, .cajacontenedora div { width: 98%; }
+    
+}
+

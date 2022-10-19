@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="fotos/icono_ventana.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuienesSomos</title>
+    <link rel="stylesheet" href="estilos.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet"> 
+   
+</head>
+<body>
+    
+    <header>
+        <a href="index(2).html"><img src="fotos/mudra logotipo.jpg" class="logo"></a>
+    
+        <a href="javascript:void(0);" class="icono" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        
+        <nav id="mibarra" class=" ">   
+        <a href="quienes.html">Quiénes Somos</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="menu.html">Menú</a>
+              
+        </nav>
+    </header>
+
+<section>
+    <div class="título">
+        <h1>QUIENES SOMOS </h1>
+
+    </div>
+
+    <div class="quienessomos">
+        <div class="quienessomos">
+            <p>Mudrá es un restaurante que aterrizó en Buenos Aires con la intención de instalarse y compartir el mundo vegetal en Argentina. La carta tiene una amplia variedad, desde comidas sencillas como pizzas y hamburguesas pero creadas de manera gourmet, hasta la novedad de nikkei sushi. El restaurante tiene detalles interiores únicos, con una gran identidad en las redes sociales, que hace que se destaque de cualquier otro en el mercado.</p>
+            <p>Mudrá se presenta como la primera propuesta 100% plant-based y gourmet del país con una cocina cosmopolita elaborada a partir de ingredientes naturales y orgánicos -superalimentos, granos, semillas, vegetales, frutos secos y frutas- que dan vida a pastas, hamburguesas, pizzas, bowls, piezas de sushi y sofisticados platos. </p>
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<footer>
+    <div class="social">
+        <div class="inner">
+            
+            <a href="https://www.instagram.com/mudraplantbased/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i> @mudraplantbased
+            </a>
+            <div class="circle white"><div class="dot"></div> </div>
+
+    
+            <a href="javascript:void(0);" class="face" onclick="myFunction()"> <i class="fa fa-facebook-official"></i><a href="https://www.facebook.com/Mudraplantbased">/mudraplantbased</a>
+            
+            </div>
+            <div class="copy">  
+            <p>© 2022 Mudraplantbased. Todos los derechos reservados. Términos y condiciones. Políticas de privacidad.</a></p>  
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    function myFunction() {
+ 
+ var x = document.getElementById("mibarra");
+
+ if (x.className === " ") {
+
+   x.className += "responsive";
+
+ } else {
+
+   x.className = " ";
+
+ }
+
+}
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+
+function plusDivs(n) {
+
+   showDivs(slideIndex += n);
+
+}
+
+
+
+function showDivs(n) {
+
+   var i;
+
+   // acá define qué elemento entra en el slider
+
+   var x = document.getElementsByClassName("mySlides");
+
+   if (n > x.length) {slideIndex = 1}
+
+   if (n < 1) {slideIndex = x.length} ;
+
+   for (i = 0; i < x.length; i++) {
+
+       x[i].style.display = "none";
+
+   }
+
+   x[slideIndex-1].style.display = "block";
+
+}
+
+
+
+carousel();
+
+
+
+function carousel() {
+
+   var i;
+
+   var x = document.getElementsByClassName("mySlides");
+
+   for (i = 0; i < x.length; i++) {
+
+     x[i].style.display = "none";
+
+   }
+
+   slideIndex++;
+
+   if (slideIndex > x.length) {slideIndex = 1}
+
+   x[slideIndex-1].style.display = "block";
+
+   setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
+
+}
+
+</script>
+    
+ 
+ </script>
+ 
+ 
+
+</body>
+</html>
