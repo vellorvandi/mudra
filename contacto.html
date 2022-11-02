@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="fotos/icono_ventana.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet"> 
+   
+</head>
+
+<body>
+    
+    <header>
+        <a href="index(2).html"><img src="fotos/mudra logotipo.jpg" class="logo"></a>
+    
+        <a href="javascript:void(0);" class="icono" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        
+        <nav id="mibarra" class=" ">   
+        <a href="quienes.html">Quiénes Somos</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="menu.html">Menú</a>
+              
+        </nav>
+    </header>
+
+<section>
+    <div class="título">
+        <h1>CONTACTO</h1>
+    </div>
+
+    <div class="reserva">
+        <a rel="stylesheet" href="https://mudra.meitre.com/">RESERVA ONLINE</a>
+    </div>
+
+    <div class="sobrem">
+        <h3> Sucursal de Buenos Aires</h3>
+    </div>
+
+    <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2735803888118!2d-58.42459803269912!3d-34.597242913978846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb4441ee4b61%3A0x6f6b289eef6902ce!2sMUDR%C3%81%20Plant-Based%20by%20Matthew%20Kenney!5e0!3m2!1ses!2sar!4v1653667891638!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </div>
+
+
+</section>
+
+
+<footer>
+    <div class="social">
+        <div class="inner">
+            
+            <a href="https://www.instagram.com/mudraplantbased/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i> @mudraplantbased
+            </a>
+            <div class="circle white"><div class="dot"></div> </div>
+
+    
+            <a href="javascript:void(0);" class="face" onclick="myFunction()"> <i class="fa fa-facebook-official"></i><a href="https://www.facebook.com/Mudraplantbased">/mudraplantbased</a>
+            
+            </div>
+            <div class="copy">  
+            <p>© 2022 Mudraplantbased. Todos los derechos reservados. Términos y condiciones. Políticas de privacidad.</a></p>  
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    function myFunction() {
+ 
+ var x = document.getElementById("mibarra");
+
+ if (x.className === " ") {
+
+   x.className += "responsive";
+
+ } else {
+
+   x.className = " ";
+
+ }
+
+}
+
+var slideIndex = 1;
+
+showDivs(slideIndex);
+
+
+
+function plusDivs(n) {
+
+   showDivs(slideIndex += n);
+
+}
+
+
+
+function showDivs(n) {
+
+   var i;
+
+   // acá define qué elemento entra en el slider
+
+   var x = document.getElementsByClassName("mySlides");
+
+   if (n > x.length) {slideIndex = 1}
+
+   if (n < 1) {slideIndex = x.length} ;
+
+   for (i = 0; i < x.length; i++) {
+
+       x[i].style.display = "none";
+
+   }
+
+   x[slideIndex-1].style.display = "block";
+
+}
+
+
+
+carousel();
+
+
+
+function carousel() {
+
+   var i;
+
+   var x = document.getElementsByClassName("mySlides");
+
+   for (i = 0; i < x.length; i++) {
+
+     x[i].style.display = "none";
+
+   }
+
+   slideIndex++;
+
+   if (slideIndex > x.length) {slideIndex = 1}
+
+   x[slideIndex-1].style.display = "block";
+
+   setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
+
+}
+
+</script>
+    
+ 
+ </script>
+ 
+ 
+
+</body>
+</html>
