@@ -1,0 +1,303 @@
+/* Regla para poner el relleno (padding) y Margen en cero */
+* {margin: 0; padding: 0;}
+
+
+    
+body { color: #1F1F1F;    font-family: 'Josefin Sans', sans-serif; }
+header { background-color: rgb(238, 239, 242); color: yellow ; padding: 8px; }
+.container{width: 100%;
+height: 200px;
+}
+.logo {width: 78px ;}
+
+.icono {color: #1F1F1F; display: none;}
+
+nav { text-align: center; float: right}
+nav a { background-color:#EAB3A5; color: rgb(255, 255, 255); text-decoration: none; margin: 1px; padding: 18px;text-align: center; float: right}
+nav a:hover { color: #1F1F1F; background-color: #FFF;}
+
+a { color:#FFF}
+
+section {background-color: rgb(255, 255, 255)}
+
+.cajaslider { display: block;text-align: center; align-items: center;justify-content: center;}
+.cajaslider h1 {position: absolute;top: 45%;left: 50%;font-size: 60px; padding: 20px; color: rgb(255, 255, 255); width: 300px; margin-left: -150px; box-sizing: border-box;}
+
+.imageninicio a {position:absolute; bottom: 50px; left: 50%; background-color: aqua; color: #1F1F1F; padding: 20px; border-radius: 10px; width: 100px; margin-left: -50px; text-align: center;}
+
+
+
+.foto4 img {width: 30%; margin-right: auto; display: block;}
+.foto2 img {width: 38%; margin-left: auto; display: block;}
+.foto3 img {width: 38%; margin-right: auto; display: block;}
+
+.banner {width: 90%; display: block; margin: 10px auto;}
+.amarillo { background-color: yellow}
+
+.cajacontenedora { display:flex; flex-flow: wrap;}
+.cajacontenedora h2 { text-align: center; border-bottom: 3px solid #ab9999}
+.cajacontenedora div {margin: 1%; padding: 10px; box-sizing: border-box;background-color: rgb(238, 239, 242);text-align: center; }
+.cajacontenedora img {padding: 10px;text-align: center;}
+.boton {color: #ab9999;}
+
+.cajacontenedora div.caja1 img { width:50%}
+
+.cajacontenedora div.caja2 img { width: 40%;}
+.cajacontenedora div.caja2 { width: 60.6%;margin-left: 1.5%}
+
+.cajacontenedora div.caja3 {width: 34%;}
+.cajacontenedora div.caja3 img { width: 50%;}
+
+.cajacontenedora div.caja4 {width: 48%;}
+.cajacontenedora div.caja4 img {width: 30%;}
+
+.cajacontenedora div.caja6 {width: 44%;margin-left: 3%;}
+.cajacontenedora div.caja6 img {width: 50%;}
+
+.cajacontenedora div.caja5 {width: 100%;}
+.cajacontenedora div.caja5 img { width: 15%;}
+
+
+.menu { display:flex; flex-flow: wrap;color: rgb(255, 255, 255); margin-bottom: 30%;margin-left: 1%;}
+.menu div {margin: 0%; padding: 0%;}
+.menu h2 { text-align: center; background-color: #EAB3A5; width: 100%; 
+    padding-top: 2%; padding-bottom: 2%;box-sizing: border-box }
+.menu h3 {margin:  0 0 10px;color: #1f1f1f; padding-right: 40%;margin-left: 1%; margin-top: 1%;padding-top: 2%;padding-left: 2%;}
+.menu p { color: #000000; margin: 10px;margin-bottom: 10%;margin-left: 1%; padding-bottom: 2%;}
+.e {margin-bottom: 2%; margin-left: 2%;}
+.s{margin-bottom: 2%; margin-left: 2%;}
+.bo {margin-bottom: 2%; margin-left: 2%;}
+.pi {margin-bottom: 2%; margin-left: 2%;}
+.h {margin-bottom: 2%; margin-left: 2%;}
+.po {margin-bottom: 2%;margin-left: 2%;}
+
+.comidas img {width: 25%;margin-left: 2%;margin-bottom: 2%;}
+
+.entrada {background-image: url("fotos/berennnnnnnnnn.jpg");background-repeat: no-repeat;
+    background-size: cover;}
+.sushi {background-image: url("fotos/sushiiiiiiiiiiiiiiiiiiiiiiiiii.jpg");background-repeat: no-repeat;
+    background-size: cover;}
+.bowls {background-image: url("fotos/ensaaaaaaaaaaaaaaaaaa.jpg");background-repeat: no-repeat;
+    background-size: cover;}
+.pizza {background-image: url("fotos/aaaaaaaaaaaaaaaaa.jpg");background-repeat: no-repeat;
+    background-size: cover;}
+.hamburguesas {background-image: url("fotos/burguerrrrrrrrrrrrrrrrrrrr.jpg");background-repeat: no-repeat;
+    background-size: cover;}
+.postres {background-image: url("fotos/torrtasiiiiiiiiiiiiiiiiiiii.jpg");background-repeat: no-repeat;
+    background-size: cover;}
+
+
+
+.cajasdelivery { display:flex; flex-flow: wrap;margin-bottom: 3%;margin-top: 3%;}
+.cajasdelivery div.deli1 { width: 33%;margin-left: 0.5%;}
+
+.reserva { background-color:#EAB3A5; font-style: #1F1F1F; text-decoration:underline; margin: 1px; padding: 18px;
+    text-align: center;-webkit-border-radius: 10px;
+    border-radius: 20px;}
+.reserva:hover { color: rgb(238, 239, 242); background-color:#1f1f1fb1;}
+.juntos { display:flex; flex-flow: wrap;}
+.mapa {width: 30%; text-align: center;margin-left: 10%; margin-bottom: 5%;margin-top: 3%;}
+.mapa2 {display: none;}
+.formulario { width: 45%;margin-left: 23%; text-align: left;}
+.suscripcion { text-align: left;margin-left: 2%;margin-top: 5%; margin-bottom: 5%;}
+
+
+.título {margin: 1px; padding: 18px;width: 40%;}
+.título2 {margin: 1px; padding: 18px;width: 40%;padding: 2%; margin: 1%;background-color: #EAB3A5;}
+.deli {display:flex; flex-flow: wrap;margin-top: 1%;}
+
+.deli div.fotodelivery {width: 30%;}
+.fotodelivery img {width: 60%;margin-left: 4%;}
+
+.deli div.delivery {width: 30%;}
+.delivery img {width: 60%;margin-top: 25%;}
+.delivery a {padding-left: 3%; padding-bottom: 5% ;}
+
+.deli div.ordena {width: 40%;}
+.ordena {margin-top: 10%; margin-left: 0%;}
+.ordena p {font-size: larger;}
+.orden {color: #767877;}
+
+.cajasdelivery { display:flex; flex-flow: wrap;margin-bottom: 3%;margin-top: 3%;}
+.cajasdelivery div.deli1 { width: 33%;margin-left: 0.5%;}
+.cajasdelivery div.deli1 img { width: 99%;}
+
+.cajasdelivery div.deli2 { width: 33%;margin-left: 0.1%;}
+.cajasdelivery div.deli2 img { width: 99%;}
+
+.cajasdelivery div.deli3 { width: 33%;margin-left: 0.1%;}
+.cajasdelivery div.deli3 img { width: 99%;}
+
+.deli4 {display: none;}
+.content {
+    font-size:36px;
+    width: 100%;
+    font-family:'Muli';
+    color:#1F1F1F;
+    margin-left: 50%; background-color: #EAB3A5;padding: 1%;margin-bottom: 2%;margin-top: 3%;}
+  
+  .visible {
+    font-weight:400;
+    overflow:hidden;
+    height:40px; 
+    padding-right: 10%;  
+  }
+  
+  ul {
+    margin-top:0;
+    padding-left:0px;
+    text-align:left;
+    list-style:none;
+    animation:6s linear 0s normal none infinite change;
+    -webkit-animation:6s linear 0s normal none infinite change;
+    -moz-animation:6s linear 0s normal none infinite change;
+    -o-animation:6s linear 0s normal none infinite change;
+  }
+  
+  ul li {
+    line-height:40px;
+    margin:0;
+  }
+  
+  @-webkit-keyframes opacity {
+    0%   {opacity:0;}
+    50%  {opacity:1;}
+    100% {opacity:0;}
+  }
+  @keyframes opacity {
+    0%   {opacity:0;}
+    50%  {opacity:1;}
+    100% {opacity:0;}
+  }
+  
+  @-webkit-keyframes change {
+    0%   {margin-top:0;}
+    15%  {margin-top:0;}
+    25%  {margin-top:-40px;}
+    40%  {margin-top:-40px;}
+    50%  {margin-top:-80px;}
+    65%  {margin-top:-80px;}
+    75%  {margin-top:-40px;}
+    85%  {margin-top:-40px;}
+    100% {margin-top:0;}
+  }
+  @keyframes change {
+    0%   {margin-top:0;}
+    15%  {margin-top:0;}
+    25%  {margin-top:-40px;}
+    40%  {margin-top:-40px;}
+    50%  {margin-top:-80px;}
+    65%  {margin-top:-80px;}
+    75%  {margin-top:-40px;}
+    85%  {margin-top:-40px;}
+    100% {margin-top:0;}
+  }
+
+
+.quienessomos {width: 80%; margin: 1%; padding: 20px; background-color: #EAB3A5}
+.quienes { display:flex; flex-flow: wrap;}
+
+.quienes div.dentro {width: 45%; margin-bottom: 2%;}
+.quienes div.dentro img {width: 90%;margin-left: 20%;margin-right: 0%;}
+.quienes div.p1 {width: 45%;text-align: justify;margin-top: 5%;margin-bottom: 13%;background-color:rgb(238, 239, 242) ;
+    padding: 2%;padding-right: 8%;}
+
+.quienes div.sirviendo {width: 45%;}
+.quienes div.sirviendo img {width: 60%;margin-left: 0%;margin-bottom: 15%;}
+.quienes div.p2 {width: 45%;text-align: justify;margin-top: 5%;margin-bottom: 11%;background-color:rgb(238, 239, 242) ;padding: 2%; padding-left: 7%;}
+
+.quienes div.mk {width: 100%;margin-left: 1%;margin-bottom: 1%;}
+
+.quienes div.matute {width: 30%;margin: 0%;}
+.quienes div.matute img {width: 90%;margin-left: 25%;margin-bottom: 10%;margin-right: 0%;}
+.quienes div.p3 {width: 55%;text-align: justify;margin-bottom: 20%;margin-top: 10%;background-color:rgb(238, 239, 242) ;
+    padding: 2%; padding-left: 7%;padding-right: 8%;}
+
+
+
+
+footer {background-color: #1F1F1F;
+text-align: center;
+color: #FFF;
+padding-bottom: 20px;
+padding-top: 2%;
+position:relative;
+/* bottom: 0px; */
+width: 100%;
+top: 100%;  }
+.ig {color: #FFF;}
+
+
+.mySlides {width: 70%; overflow: hidden;text-align: center;margin-left: 15%;margin-bottom: 0.3%; margin-top: 0.3%;}
+#seccion1 {width: 100%;}
+.botonsubir {position: fixed; right: 0; bottom: 0; background-color: red; color: #1F1F1F;}
+
+.gracias {color: #000000;text-decoration: none}
+.grax img {width: 40%; margin-left: 27%;background-color: #767877;margin-top: 0.5%; margin-bottom: 0.3%;}
+
+@media (max-width:800px) {
+    .cajacontenedora, .cajacontenedora div { width: 100%; }
+    .cajaslider h1 {left: 57%;top: 30%;font-size: 35px;float: none;}
+
+    
+}
+
+@media (max-width:600px) {
+    nav {display: none; float: n;}
+    nav a { padding: 10px;display:block;width: 100%;}
+    .responsive { display: block;height: auto;}
+    .icono { display: block;float: right; font-size: 30px;margin-bottom: 3%;}
+    .cajaslider h1 {top: 43%;font-size: 35px;padding-left: 20%;float: none;color: #554545;}
+    .cajacontenedora h2 { font-size: 100%;}
+    .cajacontenedora p { font-size: small;text-align: left;}
+    .cajacontenedora div.caja2, .cajacontenedora div.caja3, .cajacontenedora div.caja4, .cajacontenedora div.caja6 { width:100%;}
+    .cajacontenedora div.caja6 { margin: 1%;}
+    .cajacontenedora div.caja5 {margin-bottom: 2%;}
+    footer {font-size: small;}
+
+    .mapa {display: none;}
+    .mapa2 {display: flex; margin-left: 3.5%;margin-bottom: 5%;}
+    .formulario { width: 100%;margin-left: 3.5%;}
+    .suscripcion { margin-top: 8%;margin-bottom: 8%;}
+    .suscripcion h2 {font-size: 100%;}
+
+    .deli div.fotodelivery{width: 47%;margin-left:4%;} 
+    .deli div.delivery{width: 48%;} 
+    .deli div.ordena {width: 100%;margin-top: 5%;margin-left: 4%;margin-bottom: 2%;}
+    .deli div.ordena p {font-size: 90%;}
+    .content {
+        font-size:20px;
+        width: 98%;
+        margin-left: 40%}
+        .deli4 {display: block;}
+        .cajasdelivery div.deli1,.cajasdelivery div.deli2 ,.cajasdelivery div.deli3,.cajasdelivery div.deli4 { width: 48%;margin-left: 1.25%;}
+        .cajasdelivery div.deli1 img,.cajasdelivery div.deli2 img,.cajasdelivery div.deli3 img,.cajasdelivery div.deli4 img{width: 100%;}
+
+        
+    .título {font-size: small;}
+    .quienes { font-size: small;}
+    .quienessomos {width: 80%; margin: 1%; padding: 20px; background-color: #EAB3A5}
+    .quienes { display:flex; flex-flow: wrap;}
+    
+    .quienes div.dentro {width: 100%; margin-bottom: 2%;}
+    .quienes div.dentro img {width: 80%;margin-left: 10%;margin-right: 0%;}
+    .quienes div.p1 {width: 100%;text-align: justify;margin:2%;background-color:rgb(238, 239, 242) ;
+        padding: 2%;padding-right: 4%;padding-left: 4%;}
+    .quienes div.sirviendo img {display: none;}
+    .quienes div.p2 {width: 100%;text-align: justify;margin:2%;background-color:rgb(238, 239, 242) ;
+        padding: 2%;padding-right: 4%;padding-left: 4%; margin: 2%;}
+    
+    .quienes div.matute {width: 100%;margin: 0%;}
+    .quienes div.matute img {width: 50%;margin-left: 25%;margin-bottom: 0%;margin-right: 0%;margin-top: 8%;}
+    .quienes div.p3 {width: 100%;text-align: justify;margin:2%;background-color:rgb(238, 239, 242) ;
+        padding: 2%;padding-right: 4%;padding-left: 4%; margin: 2%;margin-bottom: 20%;}
+
+.carta img {width: 80%;margin-left: 7%;}
+.menu {display: block;}
+.título2 {background-color: #ffffff;}
+
+.grax img {width: 90%;margin-bottom: 30%; margin-top: 20%; margin-left: 5%;}
+
+    }
+
+   
